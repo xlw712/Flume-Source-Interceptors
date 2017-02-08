@@ -1,0 +1,12 @@
+package S003;
+option java_package = "S004"; \\指定java的包名
+option java_outer_classname = "RWA_BASIC_AUTH_AIRPORT1_"; \\指定java的编译前类名
+message RWA_BASIC_AUTH_AIRPORT {
+ required string RI070006 = 1;
+ 	required string RB030004 = 2;
+ 	required string RB030005 = 3;
+ 	required string RH010014 = 4;
+ 	required string RH010015 = 5;
+ 	required string RH010016 = 6;
+ 	required string RH010036 = 7;
+ }
